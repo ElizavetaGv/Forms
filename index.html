@@ -17,20 +17,33 @@
 		</script>	
 	</head>
 	<body>
-		<div id='app'>
-			<img src='loader.gif' id='loader'>
-			<div id='message'></div>
-			<div id='form'>
-				<div class='label'>Введите вопрос:</div>
-				<textarea id='question-title'></textarea>
-				<div id='button'>
-					<button id='question-save'>Сохранить</button>
-				</div>
+		<img src='loader.gif' id='loader'>
+		<div id='message'></div>
+		<div id='forms-list'>
+			<a id='open-profile-edit'>Настроить свой профиль</a>
+			<h2>Список анкет</h2>
+			<div id='list-content'></div>
+		</div>
+		<div id='profile-edit' class='hidden'>
+			<div id='profile'>
 				<div class='label'>Введите информацию о себе:</div>
 				<textarea id='myself-title'></textarea>
 				<div id='button'>
 					<button id='myself-save'>Сохранить</button>
 				</div>
+				<div class='label'>Для добавления вопроса нажмите кнопку:</div>
+				<div id='button'>
+					<button id='question-add'>Добавить</button>
+				</div>
+				<div id='newQuestion'>
+				<div class='label'>Введите вопрос:</div>
+				<textarea id='question-title'></textarea>
+				<div id='button'>
+					<button id='question-save'>Сохранить</button>
+				</div>
+				</div>
+				<div id='questionsContainer'></div>
+				
 			</div>
 		</div>
 		<script type='text/javascript' src='index.js'></script>

@@ -1,4 +1,4 @@
-#form {
+#profile {
 	font-size: 16px;
 	width: 300px;
 	border: 1px solid #34495e;
@@ -25,4 +25,12 @@ button {
 	border-radius: 7px; 
 	margin-bottom: 10px;
 }
-
+#newQuestion {
+	display:none;
+}
+.hidden {
+	display:none;
+}
+#open-profile-edit {
+	float:right;
+}
